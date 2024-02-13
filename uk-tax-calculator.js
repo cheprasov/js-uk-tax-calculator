@@ -47,7 +47,7 @@ calculateTax(120_000);
 // Higher rate 62300 x 0.4 = 24920
 // Additional rate 17430 x 0.45 = 7843.5
 
-calculateTax(100_000);
+calculateTax(110_000);
 // Salary 110000, Taxable Salary: 102430, Tax: 33553.5, NI: 5064.6 Take Home: 71381.9 / 12 = 5948.491666666666
 // Personal Allowance 7570
 // Basic rate 37700 x 0.2 = 7540
