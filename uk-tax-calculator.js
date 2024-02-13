@@ -39,24 +39,3 @@ const calculateTax = (salary) => {
     console.log(`Higher rate ${higherRateSalary} x 0.4 = ${higherRateTax}`);
     console.log(`Additional rate ${additionalRateSalary} x 0.45 = ${additionalRateTax}`);
 }
-
-calculateTax(120_000);
-// Salary 120000, Taxable Salary: 117430, Tax: 40303.5, NI: 5364.6 Take Home: 74331.9 / 12 = 6194.325
-// Personal Allowance 2570
-// Basic rate 37700 x 0.2 = 7540
-// Higher rate 62300 x 0.4 = 24920
-// Additional rate 17430 x 0.45 = 7843.5
-
-calculateTax(110_000);
-// Salary 110000, Taxable Salary: 102430, Tax: 33553.5, NI: 5064.6 Take Home: 71381.9 / 12 = 5948.491666666666
-// Personal Allowance 7570
-// Basic rate 37700 x 0.2 = 7540
-// Higher rate 62300 x 0.4 = 24920
-// Additional rate 2430 x 0.45 = 1093.5
-
-calculateTax(40_000);
-// Salary 40000, Taxable Salary: 27430, Tax: 5486, NI: 2743 Take Home: 31771 / 12 = 2647.5833333333335
-// Personal Allowance 12570
-// Basic rate 27430 x 0.2 = 5486
-// Higher rate 0 x 0.4 = 0
-// Additional rate 0 x 0.45 = 0
